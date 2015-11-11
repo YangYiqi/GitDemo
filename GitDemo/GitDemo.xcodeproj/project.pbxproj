@@ -14,6 +14,7 @@
 		BCFA6B521BF320B0005605DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCFA6B511BF320B0005605DA /* Images.xcassets */; };
 		BCFA6B551BF320B0005605DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCFA6B531BF320B0005605DA /* LaunchScreen.xib */; };
 		BCFA6B611BF320B0005605DA /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFA6B601BF320B0005605DA /* GitDemoTests.m */; };
+		BCFA6B6F1BF32A34005605DA /* TestView2.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFA6B6E1BF32A34005605DA /* TestView2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		BCFA6B5A1BF320B0005605DA /* GitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCFA6B5F1BF320B0005605DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCFA6B601BF320B0005605DA /* GitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoTests.m; sourceTree = "<group>"; };
+		BCFA6B6D1BF32A34005605DA /* TestView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView2.h; sourceTree = "<group>"; };
+		BCFA6B6E1BF32A34005605DA /* TestView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				BCFA6B491BF320AF005605DA /* AppDelegate.m */,
 				BCFA6B4B1BF320AF005605DA /* ViewController.h */,
 				BCFA6B4C1BF320AF005605DA /* ViewController.m */,
+				BCFA6B6D1BF32A34005605DA /* TestView2.h */,
+				BCFA6B6E1BF32A34005605DA /* TestView2.m */,
 				BCFA6B4E1BF320AF005605DA /* Main.storyboard */,
 				BCFA6B511BF320B0005605DA /* Images.xcassets */,
 				BCFA6B531BF320B0005605DA /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				BCFA6B4D1BF320AF005605DA /* ViewController.m in Sources */,
 				BCFA6B4A1BF320AF005605DA /* AppDelegate.m in Sources */,
 				BCFA6B471BF320AF005605DA /* main.m in Sources */,
+				BCFA6B6F1BF32A34005605DA /* TestView2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +422,7 @@
 				BCFA6B661BF320B0005605DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCFA6B671BF320B0005605DA /* Build configuration list for PBXNativeTarget "GitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				BCFA6B691BF320B0005605DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
